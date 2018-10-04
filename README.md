@@ -1,8 +1,9 @@
 # DQloneStatsDSL
 Reads files from a DSL in order to generate C code and header files for some game project in C (Warning: shitty code)
+
 Uses ANTLR4 to generate the parser
 
-usage : java -jar DQloneStatsDSL.jar <DSLfile> [destination]
+usage : java -jar DQloneStatsDSL.jar DSLfile [destination]
 
 DSL syntax : 
 ``` 
